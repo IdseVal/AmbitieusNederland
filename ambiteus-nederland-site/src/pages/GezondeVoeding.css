@@ -1,0 +1,9 @@
+.gezonde-voeding-page {
+  width: 100%;
+}
+
+.gezonde-voeding-page .content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}

@@ -1,0 +1,104 @@
+.grote-werken-page {
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  background: linear-gradient(135deg, rgba(255, 107, 0, 0.1), rgba(212, 175, 55, 0.1));
+}
+
+.page-header h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--color-black);
+  margin-bottom: 1rem;
+}
+
+.header-line {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, var(--color-orange), var(--color-gold));
+  margin: 0 auto;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: var(--color-gray);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.werken-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.werk-panel {
+  display: block;
+  padding: 3rem;
+  background: white;
+  border: 3px solid var(--color-gold);
+  text-decoration: none;
+  color: var(--color-black);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.werk-panel:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(255, 107, 0, 0.2);
+  border-color: var(--color-orange);
+}
+
+.werk-panel h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  color: var(--color-orange);
+  margin-bottom: 1.5rem;
+}
+
+.werk-panel p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--color-gray);
+  margin-bottom: 2rem;
+}
+
+.read-more {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--color-gold);
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.werk-panel:hover .read-more {
+  color: var(--color-orange);
+}
+
+@media (max-width: 768px) {
+  .grote-werken-page {
+    padding-top: 140px;
+  }
+
+  .werken-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .werk-panel {
+    padding: 2rem;
+  }
+}

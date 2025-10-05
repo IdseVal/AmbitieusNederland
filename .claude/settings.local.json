@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)",
+      "Read(//c/Users/idse_/Desktop/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

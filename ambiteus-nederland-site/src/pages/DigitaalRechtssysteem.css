@@ -1,0 +1,9 @@
+.digitaal-rechtssysteem-page {
+  width: 100%;
+}
+
+.digitaal-rechtssysteem-page .content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}

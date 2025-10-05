@@ -1,0 +1,86 @@
+.text-section {
+  max-width: 900px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+}
+
+.text-section.left {
+  text-align: left;
+}
+
+.text-section.center {
+  text-align: center;
+}
+
+.text-section.right {
+  text-align: right;
+}
+
+.text-section-content {
+  padding: 3rem;
+  border-left: 4px solid var(--color-gold);
+  background: linear-gradient(to right, rgba(212, 175, 55, 0.05), transparent);
+}
+
+.text-section-title {
+  color: var(--color-black);
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.text-section-body {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--color-gray);
+}
+
+.text-section-body p {
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.text-section-body a {
+  color: var(--color-gray);
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.6);
+}
+
+.text-section-body a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-orange);
+  transition: width 0.3s ease;
+}
+
+.text-section-body a:hover {
+  color: var(--color-orange);
+}
+
+.text-section-body a:hover::after {
+  width: 100%;
+}
+
+.text-section-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .text-section {
+    margin: 3rem auto;
+  }
+
+  .text-section-content {
+    padding: 2rem;
+  }
+
+  .text-section-body {
+    font-size: 1.1rem;
+  }
+}
