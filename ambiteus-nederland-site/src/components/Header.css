@@ -26,10 +26,18 @@
   color: var(--color-black);
   text-decoration: none;
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo:hover {
   color: var(--color-orange);
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
 }
 
 .nav-links {

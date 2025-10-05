@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './ImageCarousel.css';
 
-function ImageCarousel({ images }) {
+function ImageCarousel({ images, title }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {
@@ -26,6 +26,7 @@ function ImageCarousel({ images }) {
 
   return (
     <div className="carousel">
+      {title && <h3 className="carousel-title">{title}</h3>}
       <div className="carousel-inner">
         <button className="carousel-btn prev" onClick={goToPrevious} aria-label="Previous image">
           &#8249;
