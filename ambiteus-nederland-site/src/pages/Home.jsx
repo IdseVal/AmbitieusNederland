@@ -70,23 +70,23 @@ function Home() {
               Onze voorgangers hebben een onbewoonbaar moeras omgetoverd tot een waar paradijs waar wij elke dag de vruchten van plukken en waar de hele planeet jaloers op is. Daar  mogen we best trots op zijn.
             </p>
             <p>
-              Als het Europese huis voor de vrije geest en het vrije woord hielp Nederland innovaties op gebied van wetenschap, filosofie en meer de wereld in. Bedrijven als ASML laten zien dat we dit nog steeds.
+              Als het Europese huis voor de vrije geest en het vrije woord hielp Nederland innovaties op gebied van wetenschap, filosofie en meer de wereld in. Bedrijven als ASML laten zien dat we dit nog steeds zijn.
             </p>
             <p>
-              Ambitieus Nederland staat voor een Nederland dat trots op zichzelf is. Een volk dat via het menselijke ratio boven zichzelf uitstijgt en daarmee de grenzen van wat mogelijk werd geacht weet te verleggen.
+              Ambitieus Nederland staat voor een Nederland dat trots op zichzelf is. Een volk dat via het menselijke ratio boven zichzelf uitstijgt en daarmee de grenzen van wat mogelijk wordt geacht weet te verleggen.
             </p>
             <p>
-              Ambitieus Nederland is het thuis voor Nederlanders met ambitie die willen bijdragen aan de <Link to="/grote-werken">Grote Werken</Link> die op de eeuwige koers van ons pad liggen. Jij kan met jouw vaardigheden en energie bijdragen aan de realisatie van deze project. Neem <Link to="/contact">Contact</Link> op als je een steentje wil bijdragen.
+              Ambitieus Nederland is het thuis voor Nederlanders met ambitie die willen bijdragen aan de <Link to="/grote-werken">Grote Werken</Link> die voor ons in de sterren staan gebeiteld. Jij kan met jouw vaardigheden en energie bijdragen aan de realisatie van deze project. Neem <Link to="/contact">Contact</Link> op als je een steentje wil bijdragen.
             </p>
             <p>
               Wij Ambitieuze Nederlanders zijn een collectief, ben je met ons dan kan ook jij bijdragen aan het realiseren van Grote Werken zoals: <Link to="/grote-werken/doggerland">Herwinnen van Doggerland</Link>, <Link to="/grote-werken/militaire-robotica">Militaire Robotica</Link>, <Link to="/grote-werken/soevereiniteit">Soevereiniteit</Link>, <Link to="/grote-werken/digitale-educatie">Digitale Educatie</Link> en <Link to="/grote-werken/digitaal-rechtssysteem">Digitaal Rechtssysteem</Link>.
             </p>
           </>
         }
-        align="center"
+        align="left"
       />
 
-      <ImageCarousel title="Het Land dat het Water Bedwong" images={carouselImages1} />
+      <ImageCarousel title={<Link to="/grote-werken/doggerland">Het Land dat het Water Bedwong</Link>} images={carouselImages1} />
 
       <TextSection
         title="Grenzen Verleggen"
@@ -100,10 +100,10 @@ function Home() {
         align="left"
       />
 
-      <ImageCarousel title="Een Grootse Historie" images={carouselImages2} />
+      <ImageCarousel title={<Link to="/grote-werken/culturele-invloed">Een Grootse Historie</Link>} images={carouselImages2} />
 
       <TextSection
-        title="Innovatie"
+        title="Technologisch Vooruitstrevend"
         content={
           <>
             <p>
@@ -114,7 +114,7 @@ function Home() {
             </p>
           </>
         }
-        align="center"
+        align="left"
       />
     </div>
   );
