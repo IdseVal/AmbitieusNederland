@@ -13,6 +13,8 @@ function Header() {
         <ul className="nav-links">
           <li><Link to="/visie">Visie</Link></li>
           <li><Link to="/grote-werken">Grote Werken</Link></li>
+          <li><Link to="/media-educatie">Media en Educatie</Link></li>
+          <li><Link to="/crowdfunding">Crowdfunding</Link></li>
           <li><Link to="/over-ons">Over Ons</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

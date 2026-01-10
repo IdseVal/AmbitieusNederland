@@ -57,6 +57,26 @@ function Home() {
       />
 
       <TextSection
+        title="Wat is Ambitieus Nederland?"
+        content={
+          <>
+            <p>
+              Ambitieus Nederland is een cultuur thuis voor Nederlanders met een <Link to="/visie">Visie</Link> die om hun land en cultuur geven en die dat aan hun kinderen willen doorgeven. Als land willen we weer groots dromen, vandaar dat wij een aantal <Link to="/grote-werken">Grote Werken</Link> in ons collectieve vizier nemen. Jij kan met jouw vaardigheden en energie bijdragen aan de realisatie van deze projecten. Neem <Link to="/contact">Contact</Link> op als je een steentje wil bijdragen.
+            </p>
+            <p>
+              Een cultuur doorgeven doe je niet zomaar. Wij willen dat onze kinderen trots zijn op hun voorouders, op zichzelf en op hun Nederlanderschap en daarom hebben wij samen met onze gemeenschap een overzicht samengesteld van <Link to="/media-educatie">Media en Educatie</Link> bronnen, media en youtube kanalen samengesteld die leerzaam zijn voor kinderen en die niet stiekem met giftige of zelfkastijdende ideologien bevatten.
+            </p>
+            <p>
+              Wij Ambitieuze Nederlanders zijn een collectief, zonder jou redden we het niet. Ook jij kan bijdragen aan Grote Werken zoals: <Link to="/grote-werken/doggerland">Herwinnen van Doggerland</Link>, <Link to="/grote-werken/militaire-robotica">Militaire Robotica</Link>, <Link to="/grote-werken/soevereiniteit">Soevereiniteit</Link>, <Link to="/grote-werken/digitale-educatie">Digitale Educatie</Link> en <Link to="/grote-werken/digitaal-rechtssysteem">Digitaal Rechtssysteem</Link>. Of draag bij door mee te denken over welke <Link to="/media-educatie">Media en Educatie</Link> bronnen geschikt zijn voor onze kinderen.
+            </p>
+          </>
+        }
+        align="left"
+      />
+
+      <ImageCarousel title={<Link to="/grote-werken/doggerland">Het Land dat het Water Bedwong</Link>} images={carouselImages1} />
+      
+      <TextSection
         title="Nederlandse Ambitie"
         content={
           <>
@@ -75,19 +95,10 @@ function Home() {
             <p>
               Ambitieus Nederland staat voor een Nederland dat trots op zichzelf is. Een volk dat via het menselijke ratio boven zichzelf uitstijgt en daarmee de grenzen van wat mogelijk wordt geacht weet te verleggen.
             </p>
-            <p>
-              Ambitieus Nederland is het thuis voor Nederlanders met ambitie die willen bijdragen aan de <Link to="/grote-werken">Grote Werken</Link> die voor ons in de sterren staan gebeiteld. Jij kan met jouw vaardigheden en energie bijdragen aan de realisatie van deze project. Neem <Link to="/contact">Contact</Link> op als je een steentje wil bijdragen.
-            </p>
-            <p>
-              Wij Ambitieuze Nederlanders zijn een collectief, ben je met ons dan kan ook jij bijdragen aan het realiseren van Grote Werken zoals: <Link to="/grote-werken/doggerland">Herwinnen van Doggerland</Link>, <Link to="/grote-werken/militaire-robotica">Militaire Robotica</Link>, <Link to="/grote-werken/soevereiniteit">Soevereiniteit</Link>, <Link to="/grote-werken/digitale-educatie">Digitale Educatie</Link> en <Link to="/grote-werken/digitaal-rechtssysteem">Digitaal Rechtssysteem</Link>.
-            </p>
           </>
         }
         align="left"
       />
-
-      <ImageCarousel title={<Link to="/grote-werken/doggerland">Het Land dat het Water Bedwong</Link>} images={carouselImages1} />
-
       <TextSection
         title="Grenzen Verleggen"
         content={

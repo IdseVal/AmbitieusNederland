@@ -12,6 +12,7 @@ import Soevereiniteit from './pages/Soevereiniteit';
 import DigitalisatieEducatie from './pages/DigitalisatieEducatie';
 import GezondeVoeding from './pages/GezondeVoeding';
 import DigitaalRechtssysteem from './pages/DigitaalRechtssysteem';
+import MediaEducatie from './pages/MediaEducatie';
 import OverOns from './pages/OverOns';
 import Contact from './pages/Contact';
 import './App.css';
@@ -44,6 +45,7 @@ function App() {
             <Route path="/grote-werken/digitalisatie-educatie" element={<DigitalisatieEducatie />} />
             <Route path="/grote-werken/gezonde-voeding" element={<GezondeVoeding />} />
             <Route path="/grote-werken/digitaal-rechtssysteem" element={<DigitaalRechtssysteem />} />
+            <Route path="/media-educatie" element={<MediaEducatie />} />
             <Route path="/over-ons" element={<OverOns />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

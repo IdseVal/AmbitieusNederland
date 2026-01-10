@@ -1,0 +1,10 @@
+.media-educatie-page {
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .media-educatie-page {
+    padding-top: 140px;
+  }
+}
