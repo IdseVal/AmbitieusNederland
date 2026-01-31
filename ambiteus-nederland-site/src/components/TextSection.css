@@ -18,8 +18,8 @@
 
 .text-section-content {
   padding: 3rem;
-  border-left: 4px solid var(--color-gold);
-  background: linear-gradient(to right, rgba(212, 175, 55, 0.05), transparent);
+  border-left: 4px solid var(--color-orange);
+  background: linear-gradient(to right, rgba(255, 107, 0, 0.03), transparent);
 }
 
 .text-section-title {
@@ -45,7 +45,7 @@
   position: relative;
   font-weight: 600;
   transition: color 0.3s ease;
-  border-bottom: 2px solid rgba(212, 175, 55, 0.6);
+  border-bottom: 2px solid rgba(255, 107, 0, 0.4);
 }
 
 .text-section-body a::after {

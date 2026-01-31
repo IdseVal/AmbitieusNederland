@@ -3,7 +3,7 @@
   color: var(--color-white);
   padding: 3rem 2rem;
   margin-top: 5rem;
-  border-top: 3px solid var(--color-gold);
+  border-top: 3px solid var(--color-orange);
 }
 
 .footer-content {
@@ -18,10 +18,10 @@
 }
 
 .footer-email a {
-  color: var(--color-gold);
+  color: var(--color-orange);
   transition: color 0.3s ease;
 }
 
 .footer-email a:hover {
-  color: var(--color-orange);
+  color: #CC5500;
 }

@@ -14,6 +14,14 @@
   font-weight: 600;
 }
 
+.carousel-title a {
+  color: var(--color-black);
+}
+
+.carousel-title a:hover {
+  color: var(--color-orange);
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -64,7 +72,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: rgba(10, 10, 10, 0.7);
-  color: var(--color-gold);
+  color: var(--color-orange);
   border: none;
   width: 60px;
   height: 60px;
@@ -81,8 +89,8 @@
 }
 
 .carousel-btn:hover {
-  background: var(--color-gold);
-  color: var(--color-black);
+  background: var(--color-orange);
+  color: var(--color-white);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -105,19 +113,19 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: rgba(212, 175, 55, 0.3);
-  border: 2px solid var(--color-gold);
+  background-color: rgba(255, 107, 0, 0.3);
+  border: 2px solid var(--color-orange);
   cursor: pointer;
   transition: all 0.3s ease;
   padding: 0;
 }
 
 .carousel-dot:hover {
-  background-color: rgba(212, 175, 55, 0.6);
+  background-color: rgba(255, 107, 0, 0.6);
 }
 
 .carousel-dot.active {
-  background-color: var(--color-gold);
+  background-color: var(--color-orange);
   transform: scale(1.2);
 }
 

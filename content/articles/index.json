@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "slug": "doggerland",
+      "title": "Herwinnen van Doggerland",
+      "description": "Het terugwinnen van het verloren land in de Noordzee - een project dat de Nederlandse ambitie nieuw leven inblaast.",
+      "image": "Doggerland.jpg"
+    },
+    {
+      "slug": "culturele-invloed",
+      "title": "Culturele Invloed",
+      "description": "Het versterken en uitdragen van de Nederlandse cultuur en waarden op wereldniveau.",
+      "image": "Nachtwacht.jpg"
+    },
+    {
+      "slug": "militaire-robotica",
+      "title": "Militaire Robotica",
+      "description": "Ontwikkeling van geavanceerde robotica en autonome systemen voor defensie en veiligheid.",
+      "image": "DeRuyter.jpg"
+    },
+    {
+      "slug": "soevereiniteit",
+      "title": "Soevereiniteit",
+      "description": "Onafhankelijkheid van mondiale machtsstructuren en het herdefiniëren van de Europese Unie naar Nederlands model.",
+      "image": "Hugo de Grote.jpg"
+    },
+    {
+      "slug": "digitalisatie-educatie",
+      "title": "Digitalisatie van Educatie",
+      "description": "Gamification van onderwijs - het transformeren van educatie door inzet van gaming platforms en digitale ervaringen.",
+      "image": "Amsterdam1.jpg"
+    },
+    {
+      "slug": "gezonde-voeding",
+      "title": "Gezonde Voeding",
+      "description": "Een nationale beweging voor gezonde, duurzame voeding - het transformeren van de Nederlandse voedselcultuur.",
+      "image": "LandschapBijRhenen.jpg"
+    },
+    {
+      "slug": "digitaal-rechtssysteem",
+      "title": "Digitaal Rechtssysteem",
+      "description": "Modernisering van het rechtssysteem door digitalisering, AI en blockchain - snellere, transparantere en toegankelijkere rechtspraak.",
+      "image": "Erasmus.jpg"
+    }
+  ]
+}
